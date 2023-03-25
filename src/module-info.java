@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author kunal
+ *
+ */
+module Hotel {
+}
