@@ -1,11 +1,15 @@
 package Structure;
 
+import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Customer {
+public class Customer implements Serializable{
 	static Scanner sc = Hotel.sc;
-	String name;
-	 int token;
+	private String name;
+	  int token;
+	 
+	 
 	 public Customer(int token) {
 		 this.token = token;
 		System.out.println("enter name");
