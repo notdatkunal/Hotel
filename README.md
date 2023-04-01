@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-# Hotel
-=======
-# Hotel
->>>>>>> main
+ Hotel
+
