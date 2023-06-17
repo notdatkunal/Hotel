@@ -6,10 +6,21 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/*
+* @author Kunal
+* @version 1.0
+*
+* */
 public class Hotel implements Serializable{
 	static Scanner sc = new Scanner(System.in);
 	 Table[] tables = new Table[12];
+	 /**
+	  * This Linked List will save all the Customers that are waiting for the tables
+	  * */
 	LinkedList<Table> table_waiting = new LinkedList<Table>();
+	/**
+	 * this token will allocate the value to a customer type Object
+	 * */
 	int token = 0;
 	private  void resetToken() {
 		

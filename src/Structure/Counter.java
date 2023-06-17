@@ -1,6 +1,13 @@
 package Structure;
-
 import java.io.File;
+
+
+/**
+ * This class is to <i>demonstrate</i> how hotel will work in real life
+ * @author kunal
+ * @version 1.0
+ * @since 2000
+ */
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

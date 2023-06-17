@@ -12,7 +12,6 @@ public class Table implements Serializable{
 	 * on a table
 	 * 
 	 * */ 
-	
 	Customer[] members;
 	
 	 ArrayList	<Items>  order;
@@ -90,7 +89,9 @@ public class Table implements Serializable{
 		return new Table(c,token);
 	}
 	
-	
+	/**
+	 * @param Thse are the parameters for token
+	 */
 	public static Table coupleCustomer(int token) {
 		// table type getter for two persons
 		System.out.println("info of customer 1");
